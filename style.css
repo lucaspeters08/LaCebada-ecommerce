@@ -213,6 +213,10 @@
 
   @media (max-width: 900px) {
     main { margin-right: 0; }
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
     .carrito { position: static; margin: 20px auto; width: 90%; }
     .info-cosecha .imagenes img { width: 90%; height: auto; }
     .info-cosecha .mapa img { width: 90%; height: auto; }
