@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Cebada E-Commerce</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>La Cebada</h1>
+  <nav> 
+    <a href="#productos">Products</a>
+    <a href="#cosecha">Harvest</a>
+    <a href="#cebado">Preparation</a>
+  </nav>
+</header>
+
+<input type="checkbox" id="p1">
+<input type="checkbox" id="p2">
+<input type="checkbox" id="p3">
+<input type="checkbox" id="p4">
+<input type="checkbox" id="p5">
+
+<div class="carrito">
+  <h3>Cart</h3>
+  <ul>
+    <li class="producto1">Taragüi 1kg - $3.000</li>
+    <li class="producto5">La Merced 500g - $3.500</li>
+    <li class="producto2">Rosamonte 1kg - $2.800</li>
+    <li class="producto3">Playadito 1kg - $2.900</li>
+    <li class="producto4">CBSé 1kg - $3.100</li>
+  </ul>
+</div>
+
+<main>
+  <section class="productos" id="productos">
+    <div class="card">
+      <img src="./images/taragui.png" alt="Taragüi">
+      <h3>Taragüi 1kg</h3>
+      <p>$3.000</p>
+      <label for="p1">Add</label>
+    </div>
+
+    <div class="card">
+      <img src="./images/la-merced.jpg" alt="La Merced">
+      <h3>La Merced 500g</h3>
+      <p>$3.500</p>
+      <label for="p5">Add</label>
+    </div>
+
+    <div class="card">
+      <img src="./images/rosamonte.jpg" alt="Rosamonte">
+      <h3>Rosamonte 1kg</h3>
+      <p>$2.800</p>
+      <label for="p2">Add</label>
+    </div>
+
+    <div class="card">
+      <img src="./images/playadito.png" alt="Playadito">
+      <h3>Playadito 1kg</h3>
+      <p>$2.900</p>
+      <label for="p3">Add</label>
+    </div>
+
+    <div class="card">
+      <img src="./images/cbse.jpg" alt="CBSé">
+      <h3>CBSé 1kg</h3>
+      <p>$3.100</p>
+      <label for="p4">Add</label>
+    </div>
+  </section>
+</main>
+
+<section class="info-cosecha" id="cosecha">
+  <h2>The harvesting of Yerba Mate</h2>
+  <p>
+Yerba mate is mainly cultivated in the provinces of Misiones and Corrientes, in northeastern Argentina. The process begins with the growth of seedlings in nurseries, which are later transplanted to the fields where they grow for several years until reaching maturity. The harvest generally takes place between April and September, using either traditional or mechanized methods.
+  </p>
+  <p>
+  The leaves are carefully selected, dried, and aged to achieve the characteristic flavor of each brand. This process ensures that yerba mate preserves its natural properties and unique aroma, ready to be enjoyed in hot or cold mates, both in Argentina and around the world
+  </p>
+  <div class="imagenes">
+    <img src="./images/cultivo.jpeg" alt="Yerba Mate Harvest">
+    <img src="./images/cultivo2.jpg" alt="Camp of Misiones">
+    <img src="./images/cultivo3.jpg" alt="Camp of Corrientes">
+  </div>
+  <div class="mapa">
+    <h3>Yerba Mate Production Map</h3>
+    <img src="./images/mapa.jpg" width="550px" height="550px" alt="Mapa de Argentina">
+  </div>
+
+  <!-- Nueva sección: Cómo cebar un buen mate -->
+  <div class="cebar-mate" id="cebado">
+    <h2>How to serve a good mate</h2>
+    <p>The ritual of preparing mate is very important to fully enjoy yerba mate. Here we show you the basic steps:</p>
+    <div class="imagenes">
+      <div>
+        <img src="./images/paso1.png">
+        <p><strong>Step 1:</strong> Fill the mate about three-quarters full with yerba.</p>
+      </div>
+      <div>
+        <img src="./images/paso2.png">
+        <p><strong>Step 2:</strong> Tilt the gourd to create the traditional mound of yerba.</p>
+      </div>
+      <div>
+        <img src="./images/paso3.png">
+        <p><strong>Step 3:</strong>Pour a bit of warm water into the hollow of the yerba.</p>
+      </div>
+      <div>
+        <img src="./images/paso4.png" >
+        <p><strong>Step 4:</strong> Insert the straw (bombilla) and pour hot water (not boiling).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 LaCebada · Shipping Nationwide
+</footer>
+
+</body>
+</html>
