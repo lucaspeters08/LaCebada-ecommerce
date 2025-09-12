@@ -4,6 +4,14 @@
     background: #F8F1E1;
     color: #1b5e20;
   }
+  .logo{
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: flex;
+    float: left;
+  }
   header {
     background: #2e7d32;
     color: white;
@@ -212,7 +220,22 @@
   }
 
   @media (max-width: 900px) {
+    
     main { margin-right: 0; }
+    header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .logo{
+      width: 50px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      float: center;
+      margin: 0 auto;
+    }
     nav{
       display: flex;
       flex-direction: column;
